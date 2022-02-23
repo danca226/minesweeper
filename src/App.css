@@ -1,0 +1,214 @@
+#game {
+    background-color: silver;
+}
+
+div.asset {
+    background-image: url(assets/spritesheet.gif);
+    float: left;
+}
+
+div.square {
+    width: 32px;
+    height: 32px;
+}
+
+div.square.unexplored {
+    background-position: 0 -78px;
+}
+
+div.square.blank {
+    background-position: 0 -46px;
+}
+
+div.square.mine {
+    background-position: -128px -78px;
+}
+
+div.square.mineexploded {
+    background-position: -64px -78px;
+}
+
+div.square.number1 {
+    background-position: -32px -46px;
+}
+
+div.square.number2 {
+    background-position: -64px -46px;
+}
+
+div.square.number3 {
+    background-position: -96px -46px;
+}
+
+div.square.number4 {
+    background-position: -128px -46px;
+}
+
+div.square.number5 {
+    background-position: -160px -46px;
+}
+
+div.square.number6 {
+    background-position: -192px -46px;
+}
+
+div.square.number7 {
+    background-position: -224px -46px;
+}
+
+div.square.number8 {
+    background-position: -256px -46px;
+}
+
+div.bordertl {
+    background-position: 0 -162px;
+    width: 20px;
+    height: 20px
+}
+
+div.bordertr {
+    background-position: -20px -162px;
+    width: 20px;
+    height: 20px
+}
+
+div.borderbl {
+    background-position: -40px -162px;
+    width: 20px;
+    height: 20px
+}
+
+div.borderbr {
+    background-position: -60px -162px;
+    width: 20px;
+    height: 20px
+}
+
+div.bordertb {
+    background-position: -80px -162px;
+    width: 32px;
+    height: 20px
+}
+
+div.borderjointl {
+    background-position: -112px -162px;
+    width: 20px;
+    height: 20px
+}
+
+div.borderjointr {
+    background-position: -132px -162px;
+    width: 20px;
+    height: 20px
+}
+
+div.borderlr {
+    background-position: -268px -78px;
+    width: 20px;
+    height: 32px
+}
+
+div.borderlrlong {
+    background-position: -268px -78px;
+    width: 20px;
+    height: 64px
+}
+
+div.time0 {
+    background-position: 0 0;
+    width: 26px;
+    height: 46px
+}
+
+div.time1 {
+    background-position: -26px 0;
+    width: 26px;
+    height: 46px
+}
+
+div.time2 {
+    background-position: -52px 0;
+    width: 26px;
+    height: 46px
+}
+
+div.time3 {
+    background-position: -78px 0;
+    width: 26px;
+    height: 46px
+}
+
+div.time4 {
+    background-position: -104px 0;
+    width: 26px;
+    height: 46px
+}
+
+div.time5 {
+    background-position: -130px 0;
+    width: 26px;
+    height: 46px
+}
+
+div.time6 {
+    background-position: -156px 0;
+    width: 26px;
+    height: 46px
+}
+
+div.time7 {
+    background-position: -182px 0;
+    width: 26px;
+    height: 46px
+}
+
+div.time8 {
+    background-position: -208px 0;
+    width: 26px;
+    height: 46px
+}
+
+div.time9 {
+    background-position: -234px 0;
+    width: 26px;
+    height: 46px
+}
+
+div.time_hundreds {
+    margin: 8px 0 10px 12px;
+}
+
+div.time_tens {
+    margin: 8px 0 10px 0;
+}
+
+div.time_ones {
+    margin: 8px 0 10px 0;
+}
+
+
+div.facesmile {
+    background-position: 0 -110px;
+    width: 52px;
+    height: 52px;
+    margin: 5px 0 7px 0;
+}
+
+div.facepressed {
+    background-position: -52px -110px;
+    width: 52px;
+    height: 52px;
+    margin: 8px 0 10px 0;
+}
+
+div.facedead {
+    background-position: -156px -110px;
+    width: 52px;
+    height: 52px;
+    margin: 8px 0 10px 0;
+}
+
+/* .levelbuttons {
+    margin-top: 11px;
+    margin-right: 12px;
+} */
